@@ -1,0 +1,14 @@
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    en: en
+    fi: fi
+    sv: sv
+    es: es
+  domains:
+    en: ''
+    fi: ''
+    sv: ''
+    es: ''

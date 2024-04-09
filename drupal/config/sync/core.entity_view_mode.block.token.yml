@@ -1,0 +1,11 @@
+uuid: 15623cad-fdf7-42f4-bd95-2976400510f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+id: block.token
+label: Token
+description: ''
+targetEntityType: block
+cache: true

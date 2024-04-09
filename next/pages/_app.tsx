@@ -29,7 +29,7 @@ function App({ Component, pageProps }: AppProps<PageProps>) {
       <QueryClientProvider client={queryClient}>
         <Fonts>
           <LanguageLinksProvider languageLinks={languageLinks}>
-            <Layout menus={menus}>
+            <Layout menus={"hola", menus}>
               <Component {...restPageProps} />
             </Layout>
           </LanguageLinksProvider>

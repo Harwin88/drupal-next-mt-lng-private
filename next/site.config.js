@@ -16,6 +16,11 @@ const siteConfig = {
       path: "/sv",
       langcode: "sv",
     },
+    es: {
+      name: "Español",
+      path: "/es",
+      langcode: "es",
+    },
   },
 };
 

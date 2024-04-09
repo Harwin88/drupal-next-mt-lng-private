@@ -16,6 +16,7 @@ export async function getMenus({ locale }: GetStaticPropsContext) {
   );
 
   return {
+    pagen_info: "Hola pagen",
     main: main.menu,
     footer: footer.menu,
   };

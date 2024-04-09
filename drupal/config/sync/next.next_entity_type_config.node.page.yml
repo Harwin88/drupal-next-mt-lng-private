@@ -1,0 +1,16 @@
+uuid: 48b03a3f-3c9a-4cb5-95a6-4b1fbf35d610
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RCsADUWY9Q_wIPoYBTow7gfmzpI8wPvsDt5HT-lwzIM
+id: node.page
+site_resolver: site_selector
+configuration:
+  sites:
+    frontend: frontend
+  field_name: {  }
+revalidator: path
+revalidator_configuration:
+  revalidate_page: true
+  additional_paths: ''

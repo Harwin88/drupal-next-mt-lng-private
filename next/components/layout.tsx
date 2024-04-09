@@ -17,10 +17,11 @@ export interface LayoutProps {
     main: MenuType;
     footer: MenuType;
   };
+  infoPage:"hola";
   children?: React.ReactNode;
 }
 
-export function Layout({ menus, children }: LayoutProps) {
+export function Layout({ infoPage, menus, children }: LayoutProps) {
   const isPreviewVisible = useIsPreviewBannerVisible();
   const { t } = useTranslation();
 
@@ -35,7 +36,7 @@ export function Layout({ menus, children }: LayoutProps) {
         <SkipToContentLink href="#main-content">
           {t("skip-to-main-content")}
         </SkipToContentLink>
-        <Header menu={menus.main} />
+        <Header pageinfo={infoPage} menu={menus.main} />
         <main className="grow bg-mischka" id="main-content">
           <div className="mx-auto max-w-6xl px-6 py-8">{children}</div>
         </main>

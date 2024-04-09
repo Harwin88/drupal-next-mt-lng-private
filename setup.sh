@@ -49,6 +49,7 @@ while getopts "ch" opt; do
   esac
 done
 
+
 # Run the commands
 run_commands() {
   for ((i = $last_successful_command; i < ${#commands[@]}; ++i)); do
